@@ -7,9 +7,9 @@
 
 # Tutorial run this application on your Local Computer
 
-* ###### **git clone https://github.com/Anderies/gesture-angular.git** at folder you wish 
-* ###### after that run **npm install** wait till it complete 
-* ###### run **ng serve -o** or ng s --host yourip and see the browser opening a web app
+* #### **git clone https://github.com/Anderies/gesture-angular.git** at folder you wish 
+* #### after that run **npm install** wait till it complete 
+* #### run **ng serve -o** or ng s --host yourip and see the browser opening a web app
 
 # TutorialGestureAngular
 

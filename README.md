@@ -1,3 +1,7 @@
+# Demo Of Application
+Simple Slider Using SWIPE Gesture from Hammer Module(Hammerjs)
+![](https://github.com/Anderies/gesture-angular/blob/master/src/assets/images/medium.gif)
+
 # TutorialGestureAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.

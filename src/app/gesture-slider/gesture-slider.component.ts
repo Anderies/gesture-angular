@@ -14,7 +14,7 @@ export class GestureSliderComponent implements OnInit {
 
 
   onSwipeRight(event, data) {
-    console.log("event", event)
+    console.log("event right", event)
     this.slides = this.slides + data
 
     if (this.slides == 2) {
@@ -23,10 +23,10 @@ export class GestureSliderComponent implements OnInit {
   }
 
   onSwipeLeft(event, data) {
-    console.log("event", event)
-    this.slides = this.slides - data
-
-    if (this.slides == -1) {
+    console.log("event left", data)
+    this.slides = this.slides + data
+    console.log("slides",this.slides)
+    if (this.slides == -2) {
       this.slides = 0
     }
   }

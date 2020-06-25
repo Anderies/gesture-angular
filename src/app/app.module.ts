@@ -23,6 +23,7 @@ export class MyHammerConfig extends HammerGestureConfig {
   imports: [
     BrowserModule,
     AppRoutingModule,
+    // SHOULD BE IMPORTS AT ANGULAR 9
     HammerModule
   ],
   providers: [{ provide: HAMMER_GESTURE_CONFIG, useClass: MyHammerConfig }],

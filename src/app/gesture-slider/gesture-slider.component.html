@@ -1,6 +1,6 @@
-<div class="mr-2 ml-2" (swipeleft)="onSwipeRight($event,1)" (swiperight)="onSwipeRight($event,1)">
+<div class="mr-2 ml-2">
     <h1 class="txt-title">Gesture Tutorial Using Hammer</h1>
-    <div class="slider-section">
+    <div class="slider-section" (swipeleft)="onSwipeLeft($event,-1)" (swiperight)="onSwipeRight($event,1)">
         <div class="slider" *ngIf="slides == -1">
             <div class="group-img">
                 <img class="img" src="../../assets/images/person-7.jpg">
@@ -15,7 +15,7 @@
             <div class="group-img">
                 <img class="img" src="../../assets/images/person-1.jpg">
                 <div class="group-text">
-                    <h3 class="txt-name">Tawarkal Norman</h3>
+                    <h3 class="txt-name">Tawarkal Leo</h3>
                     <h5 class="txt-job">UI / UX Designer</h5>
                     <hr>
                 </div>
@@ -38,12 +38,11 @@
                 </div>
             </div>
         </div>
-
         <div class="slider"  *ngIf="slides == 1"> 
             <div class="group-img">
                 <img class="img" src="../../assets/images/person-4.jpg">
                 <div class="group-text">
-                    <h3 class="txt-name">Normania 2</h3>
+                    <h3 class="txt-name">Normania 1</h3>
                     <h5 class="txt-job">UI / UX Designer</h5>
                     <hr>
                 </div>
@@ -52,21 +51,11 @@
             <div class="group-img">
                 <img class="img" src="../../assets/images/person-5.jpg">
                 <div class="group-text">
-                    <h3 class="txt-name">Normania 3</h3>
+                    <h3 class="txt-name">Normania 2</h3>
                     <h5 class="txt-job">UI / UX Designer</h5>
                     <hr>
                 </div>
             </div>
-            <div class="group-img">
-                <img class="img" src="../../assets/images/person-6.jpg">
-                <div class="group-text">
-                    <h3 class="txt-name">Normania 4</h3>
-                    <h5 class="txt-job">UI / UX Designer</h5>
-                    <hr>
-                </div>
-            </div>
-
-
         </div>
     </div>
 </div>
